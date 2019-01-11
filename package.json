@@ -1,0 +1,30 @@
+{
+  "name": "demo-teleterminal-plop-server",
+  "version": "0.1.0",
+  "description": "run plop as an automation server",
+  "main": "plopfile.js",
+  "scripts": {
+    "start": "teleterminal plop -m -a -i all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amwmedia/demo-teleterminal-plop-server.git"
+  },
+  "keywords": [
+    "terminal",
+    "plop",
+    "automation",
+    "server"
+  ],
+  "author": "Andrew Worcester",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amwmedia/demo-teleterminal-plop-server/issues"
+  },
+  "homepage": "https://github.com/amwmedia/demo-teleterminal-plop-server#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "plop": "^2.2.0",
+    "teleterminal": "^1.1.2"
+  }
+}
